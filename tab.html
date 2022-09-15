@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Tabs</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/cssfa/fontawesome.min.css">
+</head>
+<style>
+    .con{
+        padding: 20px;
+        margin: 20px;
+        border-radius: 7px;
+        box-shadow: 1px 2px 2px black;
+    }
+</style>
+<body>
+    <ul class = "nav nav-tabs" style = "float: right;">
+        <li class ="active"> <a data-toggle="tab" href="#Sign">Signup</a></li>
+        <li><a data-toggle="tab" href = "#log">Login</a></li>
+        <li><a data-toggle="tab" href ="#forg">Forgot Password?</a></li>
+    </ul>
+
+    <div class = "tab-content">
+        <div id = "sign" class = "tab-pane fade in active">
+            <div class = "con">
+            <h1>Sign up here</h1>
+                <div style="max-width: 450px">
+                </div>
+            </div>
+        </div>
+        <div id = "log" class = "tab-pane fade">
+            <p class = "con"> Login Content</p>
+        </div>
+        <div id = "forg" class = "tab-pane fade">
+            <p class = "con"> Forgot Content</p>
+        </div>
+        </div>
+
+        
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
